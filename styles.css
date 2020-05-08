@@ -30,3 +30,45 @@ img {
 #nav-main a{
     color: white;
 }
+
+.introduction{
+    padding: 5rem 0;
+}
+
+.introduction h1{
+    padding-bottom: 1rem;
+}
+
+.contents{
+    padding-bottom: 5rem;
+}
+
+.links {
+    padding-bottom: 5rem;
+}
+
+
+.fa {
+    padding: 1.25rem;
+    font-size: 1.875rem;
+    width: 4.125rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa-github{
+    background: rgb(0, 0, 0);
+    color: white;
+}
+
+.fa-linkedin{
+    background: rgb(0, 0, 0);
+    color: white;
+}
+
+#footer-main{
+    background: #222;
+    color: white;
+    font-size: 0.8rem;
+    padding: 2.5rem 0;
+}
