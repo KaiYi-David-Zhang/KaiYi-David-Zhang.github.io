@@ -1,0 +1,32 @@
+/* styles.css */
+
+html,
+body{
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+/* cover */
+#cover  {
+    background: rgb(66, 110, 230) url('img/kimishima.jpg') center center no-repeat;
+    background-size: cover;
+    color: white;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+
+#cover-caption{
+    width: 100%;
+}
+
+#nav-main a{
+    color: white;
+}
