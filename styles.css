@@ -11,6 +11,7 @@ img {
 }
 
 
+
 /* cover */
 #cover  {
     background: rgb(66, 110, 230) url('img/kimishima.jpg') center center no-repeat;
@@ -27,9 +28,6 @@ img {
     width: 100%;
 }
 
-#nav-main a{
-    color: white;
-}
 
 .introduction{
     padding: 5rem 0;
@@ -39,6 +37,19 @@ img {
     padding-bottom: 1rem;
 }
 
+.introduction p{
+    font-size: 1.3rem;
+}
+
+.introduction img{
+    margin-right: 1rem;
+}
+
+.introduction h4{
+    font-size: 1.3rem;
+}
+
+
 .contents{
     padding-bottom: 5rem;
 }
@@ -47,7 +58,15 @@ img {
     padding-bottom: 5rem;
 }
 
+.skill-bars h1{
+    padding-bottom: 3rem;
+}
 
+
+
+#skills{
+    padding-bottom: 5rem;
+}
 .fa {
     padding: 1.25rem;
     font-size: 1.875rem;
