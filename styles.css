@@ -85,6 +85,10 @@ img {
     color: white;
 }
 
+#connections{
+    padding-bottom: 5rem;
+}
+
 #footer-main{
     background: #222;
     color: white;
