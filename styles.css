@@ -62,11 +62,14 @@ img {
     padding-bottom: 3rem;
 }
 
-
+#projects p{
+    font-size: 1.3rem;
+}
 
 #skills{
     padding-bottom: 5rem;
 }
+
 .fa {
     padding: 1.25rem;
     font-size: 1.875rem;
