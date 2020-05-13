@@ -49,6 +49,13 @@ img {
     font-size: 1.3rem;
 }
 
+#details{
+    padding-top: 2rem;
+}
+
+#details .container p{
+    font-size: 1.3rem;
+}
 
 .contents{
     padding-bottom: 5rem;
@@ -65,6 +72,7 @@ img {
 #projects p{
     font-size: 1.3rem;
 }
+
 
 #skills{
     padding-bottom: 5rem;
