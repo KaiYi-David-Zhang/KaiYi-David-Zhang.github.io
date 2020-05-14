@@ -14,7 +14,7 @@ img {
 
 /* cover */
 #cover  {
-    background: rgb(66, 110, 230) url('img/kimishima.jpg') center center no-repeat;
+    background: rgb(66, 110, 230) url('./img/mmexport1514852056810.jpg') center center no-repeat;
     background-size: cover;
     color: white;
     height: 100%;
@@ -30,11 +30,11 @@ img {
 
 
 .introduction{
-    padding: 5rem 0;
+    margin: 5rem 0;
 }
 
 .introduction h1{
-    padding-bottom: 1rem;
+    margin-bottom: 1rem;
 }
 
 .introduction p{
@@ -47,6 +47,10 @@ img {
 
 .introduction h4{
     font-size: 1.3rem;
+}
+
+.introduction h3{
+    margin-bottom: 1rem;
 }
 
 #details{
@@ -92,7 +96,7 @@ img {
 }
 
 .fa-linkedin{
-    background: rgb(0, 0, 0);
+    background: rgb(40, 103, 178);
     color: white;
 }
 
