@@ -3,7 +3,6 @@
 html,
 body{
     height: 100%;
-    scroll-behavior: smooth;
 }
 
 img {
@@ -82,23 +81,6 @@ img {
     padding-bottom: 5rem;
 }
 
-.fa {
-    padding: 1.25rem;
-    font-size: 1.875rem;
-    width: 4.125rem;
-    text-align: center;
-    text-decoration: none;
-}
-
-.fa-github{
-    background: rgb(0, 0, 0);
-    color: white;
-}
-
-.fa-linkedin{
-    background: rgb(40, 103, 178);
-    color: white;
-}
 
 #connections{
     padding-bottom: 5rem;
@@ -107,6 +89,47 @@ img {
 #footer-main{
     background: #222;
     color: white;
-    font-size: 0.8rem;
+    font-size: 1.3rem;
     padding: 2.5rem 0;
+}
+
+
+#footer-main a{
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: silver;
+}
+
+#footer-main a:hover{
+    color:white;
+}   
+
+#footer-main a:hover>span{
+    background-color:white;
+}   
+
+
+.fa {
+    border-radius: 1rem;
+    padding: 1.25rem;
+    margin: 0.5rem;
+    font-size: 1.875rem;
+    width: 4.125rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa-github{
+    background:silver;
+    color: black;
+}
+
+.fa-linkedin{
+    background:silver;
+    color: black;
+}
+
+.fa-at{
+    background: silver;
+    color: black;
 }

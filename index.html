@@ -41,7 +41,7 @@
                     <h1>About Me</h1>
                     <div class="row">
                         <div class="col-3">
-                            <img src="./img/blank-profile-picture-png-17.png" class="float-left" alt="">
+                            <img src="./img/profile.png" class="float-left" alt="">
                         </div>
                         <div class="col-9">
                             <p>Hello there! Thank you for dropping by my website. I am Kai Yi Zhang. I also go by David. I am a computer science student at the University of Waterloo. I am a passionate developer who is not afraid to learn and try new things. One of my main reason why I pursued an education in the field of computer science is due to how flexible my abilities can be and how many fields my skills bring impact to. One important motto I live by is “do not be afraid to learn.” I am also excited to learn new skills and broaden my view of our amazing world. Come hand out down below to see my projects and find where you can connect with me.</p>
@@ -58,12 +58,7 @@
                             <p>Location: Waterloo, Oakville</p>
 
                         </div>
-                        <div class="col-sm">
-                            <h3>Connect</h3>
-                            <a href="https://github.com/KaiYi-David-Zhang" class="fa fa-github"></a>
-                            <a href="https://www.linkedin.com/in/kai-yi-zhang-4444671a4/" class="fa fa-linkedin"></a>
 
-                        </div>
                         <div class="col-sm">
                             <h3>Resume</h3>
                             <form action="./files/KYZhang Resume 2020 Updated.pdf" method="GET">
@@ -81,7 +76,7 @@
                 <div class="container">
                     <h1>My Skills</h1>
                     <div class="row">
-                        <div class="col">
+                        <div class="col-md-6">
                             <h4>C++</h4>
                             <div class="progress" style="width: 90%; height: 2.5rem;">
                                 <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
@@ -103,7 +98,7 @@
                             </div>                           
 
                         </div>
-                        <div class="col">
+                        <div class="col-md-6">
                             <h4>C</h4>
                             <div class="progress" style="width: 90%; height: 2.5rem;">
                                 <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
@@ -183,7 +178,41 @@
 
         <footer id="footer-main">
             <div class="container">
-                <p>This entire website is made with HTML, CSS and the Bootstrap 4 library.</p>
+                <h1>Contact</h1>
+                <p>Here is where you can find me.</p>
+                <div class="row">
+
+                    <div class="col-md-6">
+                        <ul style="list-style: none;">
+                            <li>
+                                <a href="https://github.com/KaiYi-David-Zhang">
+                                    <span class="fa fa-github"></span>
+                                    https://github.com/KaiYi-David-Zhang
+                                </a>
+                            </li>
+                            <li>
+                                <a href="www.linkedin.com/in/kai-yi-zhang">
+                                    <span class="fa fa-linkedin"></span>
+                                    www.linkedin.com/in/kai-yi-zhang
+                                </a>
+
+                            </li>
+                        </ul>
+    
+                    </div>
+                    <div class="col-md-6">
+                        <ul style="list-style: none;">
+                            <li>
+                                <a href="mailto:theyijimima@gmail.com">
+                                    <span class="fa fa-at"></span>
+                                    theyijimima@gmail.com
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+
             </div>
         </footer>
 
@@ -193,5 +222,34 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+    // Code copied from W3School.com
+    // URL: https://www.w3schools.com/howto/howto_css_smooth_scroll.asp
+    $(document).ready(function(){
+    // Add smooth scrolling to all links
+    $("a").on('click', function(event) {
+
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+        // Prevent default anchor click behavior
+        event.preventDefault();
+
+        // Store hash
+        var hash = this.hash;
+
+        // Using jQuery's animate() method to add smooth page scroll
+        // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+        $('html, body').animate({
+            scrollTop: $(hash).offset().top
+        }, 800, function(){
+    
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+        });
+        } // End if
+    });
+    });
+    </script>
   </body>
 </html>
