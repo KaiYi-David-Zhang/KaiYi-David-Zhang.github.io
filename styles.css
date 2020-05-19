@@ -86,11 +86,16 @@ img {
     padding-bottom: 5rem;
 }
 
+#hobbies .row{
+    margin-top: 3rem;
+}
+
 #footer-main{
     background: #222;
     color: white;
     font-size: 1.3rem;
     padding: 2.5rem 0;
+    margin-top: 3rem;
 }
 
 
@@ -113,23 +118,14 @@ img {
     border-radius: 1rem;
     padding: 1.25rem;
     margin: 0.5rem;
+    background: silver;
+    color: black;
     font-size: 1.875rem;
     width: 4.125rem;
     text-align: center;
     text-decoration: none;
 }
 
-.fa-github{
-    background:silver;
-    color: black;
-}
-
-.fa-linkedin{
-    background:silver;
-    color: black;
-}
-
-.fa-at{
-    background: silver;
-    color: black;
+.fa-gamepad{
+    padding-left: 0.9rem;
 }
