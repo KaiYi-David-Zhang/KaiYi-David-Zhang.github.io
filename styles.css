@@ -27,6 +27,9 @@ img {
     width: 100%;
 }
 
+#cover-caption p{
+    font-size: 2rem;
+}
 
 .introduction{
     margin: 5rem 0;
